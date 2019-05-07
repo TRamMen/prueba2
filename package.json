@@ -1,0 +1,33 @@
+{
+  "name": "Backend-Assesment",
+  "version": "1.0.0",
+  "description": "NodeJS",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./src",
+    "dev": "nodemon ./src/index.js --ext js",
+    "eslint": "eslint src/ --ext .js || true",
+    "eslint:fix": "eslint src/ --ext .js --fix || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.8.2"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0"
+  }
+}
